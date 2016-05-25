@@ -1,0 +1,22 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>net.aib42.processing</groupId>
+	<artifactId>aibstestlib</artifactId>
+	<version>1.0.0</version>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+
+				<configuration>
+					<finalName>${project.artifactId}</finalName>
+					<outputDirectory>library</outputDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

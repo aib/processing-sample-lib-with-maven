@@ -4,3 +4,5 @@ Use the "package" command to build the library JAR:
 mvn package
 
 The whole repository is designed to be put in your "sketchbook/libraries" directory, but be sure to rename the main directory to match the JAR's name. (I use "aibstestlib".)
+
+This library depends on Andreas Schlegel's (http://www.sojamo.de/) controlP5 library (http://www.sojamo.de/libraries/controlP5/) as an example. Simply downloading it using Processing's "Contribution Manager" (Sketch -> Import Library -> Add Library) should work, but be sure to review the pom.xml file if things don't work.

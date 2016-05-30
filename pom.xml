@@ -18,7 +18,7 @@
 		<dependency>
 			<groupId>de.sojamo</groupId>
 			<artifactId>controlP5</artifactId>
-			<version>2.2.1</version>
+			<version>2.2.6</version>
 			<scope>system</scope>
 			<systemPath>${user.home}/sketchbook/libraries/controlP5/library/controlP5.jar</systemPath>
 		</dependency>

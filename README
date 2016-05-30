@@ -1,4 +1,4 @@
-This is a sample Processing (3.1.1) library that uses Apache Maven to build.
+This is a sample Processing (3.1.1) library that uses Apache Maven (https://maven.apache.org/) to build.
 
 Use the "package" command to build the library JAR:
 mvn package

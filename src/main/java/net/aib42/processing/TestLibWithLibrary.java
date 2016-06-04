@@ -13,6 +13,6 @@ public class TestLibWithLibrary
 	}
 
 	public void test() {
-		papplet.println("ControlP5 version is " + ControlP5.VERSION);
+		ControlP5 cp5 = new ControlP5(papplet);
 	}
 }
